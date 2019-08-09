@@ -1,28 +1,75 @@
-body{
-	background-color: black;
+.wrap{
+    background: rgb(196, 196, 206);
+    width: 900px;
+    margin: 10px auto;
 }
 
-h1{
-	color:red;
+/*bagian header*/
+.wrap .header{
+    background:cyan;
+    padding: 2px 10px;
+    text-align: center;
+    font-family: blackletter;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-#p1{
-	color:red;
-	font-family: chiller;
-	font-size: 30px;
-	font-weight: bold;
+/*akhir header*/
+/*bagian menu*/
+
+.wrap .menu{
+    background: yellow;
 }
 
-.p2{
-    color:purple;
-	font-family: chiller;
-	font-size: 30px;
-	font-weight: bold;
-
+.wrap .menu ul{
+    padding:0;
+    margin:0;
+    background: yellow;
+    overflow: hidden;
 }
 
-li{
-	color:red;
-	font-family:chiller;
-	font-weight:bold;
+.wrap .menu ul li{
+    float: left;
+    list-style-type: none;
+    padding:10px;
+    font-family: Arial Narrow Bold;
+    text-decoration: none;
+}
+/* akhir menu*/
+
+.clear{
+    clear:both;
+}
+.badan{
+    height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+    background: black;
+    float: left;
+    height: 100%;
+    width:30%;
+    color: red;
+}
+.wrap .badan .sidebar ul li{
+    list-style-type: none;
+    font-family: blackletter;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* akhir sidebar*/
+.wrap .badan .content{
+    float: left;
+    width:  70%;
+    text-align: center;
+    
+}
+
+.wrap .footer{
+    width: 97%.5%;
+    padding: 10px;
+    background: yellow;
+    text-align:center;
+    
+
 }
