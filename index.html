@@ -1,73 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tes Table</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="vendors/css/grid.css"/>
+	<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css"/>
+	<title></title>
 </head>
 <body>
-<table border="1" cellpadding="10">
+	<header>
+		<nav class="row">	
+			<img src="resources/css/img/logo-white.png" alt="omnifood logo" class="logo">
+			<ul class="main-nav">
+			<li><a href="#">Food delivery</a></li>
+			<li><a href="#">How it works</a></li>
+			<li><a href="#">our cities</a></li>
+			<li><a href="#">sign out</a></li>	
+			</ul>
+		</nav>
+		<div class="hero-text-box">
+			<h1>Goodbye junk food. <br>Hello super healthy meals.</h1>
+			<a href="#" class="btn btn-full">I’m hungry</a>
+			<a href="#" class=" btn btn-ghost">Show me more </a>
+		</div>
+	</header>
+	<section class="section-features">
+	    <div class="row">
+	        <h2>GET FOOD FAST &mdash; NOT FAST FOOD</h2>
+	        <p class="long-copy">Hello, we're Omnifood, your new premium food delivery service.We know you're always busy.
+	        No time for cooking.So let us take care of that, we're really good at it, promise!</p>
+        <div class="row">
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-infinite-outline icon-big"></i>
+            	<h3>UP TO 365 DAYS/YEAR</h3>
+            	<p>Never cook again! We really mean that.Our subscription plans include up to 365 year coverage.You can also choose to order more flexbly if that's your style</p>
+            </div>
+            <div class="col span-1-of-4 box">
+            	<i class="ion-ios-stopwatch-outline icon-big"></i>
+            	<h4>Ready in 20 minutes</h4>
+            	<p>You're only tewenty minutes away from your delicious and super healty meals delivered
+            	right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+            </div>
+            <div class="col span-1-of-4 box">
+            	<i class="ion-ios-nutrition-outline icon-big"></i>
+            	<h5>100% organic</h5>
+            	<p>All our vegetables are fresh, organic and local.Animals are raised without added hormones
+            	or antibioitics.Good for you health, the environent,and it also tastes better!</p>
+            </div>
+            <div class="col span-1-of-4 box">
+            	<i class="ion-ios-cart-outline icon-big"></i>
+            	<h6>Order anything</h6>
+            	<p>We don't limit your creativity, which means you can order whatever you feel like.
+            	You can also choose from our menu containing over 100 delicious meals.It's up to you!</p>
+            </div>
 
-    <tr>
-        <td></td>
-        <td colspan="2">11</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td rowspan="6">25</td>
-    </tr>
+            <div class="col-span-1-of-4 box"></div>
+            <div class="col-span-1-of-4 box"></div>
+            <div class="col-span-1-of-4 box"></div>
+            </section>
+            <section class="meals">
+            <ul class="meals-showchase clearfix">
+                <li>
+                <figure class="meal-photo">
+                    <img src="resources/css/img/1.jpg" alt="korean bibimbap with egg and vegetables">
+                </figure>
+                </li>
+                <li>
+                <figure class="meal-photo">
+                    <img src="resources/css/img/2.jpg" alt="Simple italian pizza wiyh cherry tomatoes">
+                </figure>
+                </li> 
+                <li>
+                <figure class="meal-photo">
+                    <img src="resources/css/img/3.jpg" alt="Chiken brast steak with vegetables">
+                </figure>
+                </li>
+                <li>
+                <figure class="meal-photo">
+                    <img src="resources/css/img/4.jpg" alt="Autumn pumpkin soup">
+                </figure>
+                </li>
+                <li>
+                <figure class="meal-photo">
+                    <img src="resources/css/img/5.jpg" alt="Paleo beef steak with vegetables">
+                </figure>
+                </li>
+                <li>
+                <figure class="meal-photo">
+                    <img src="resources/css/img/6.jpg" alt="Healty baguette with egg and vegetables">
+                </figure>
+                </li>
+                <li>
+                <figure class="meal-photo">
+                    <img src="resources/css/img/7.jpg" alt="Burger with cheddar and bacon">
+                </figure>
+                </li>
+                <li>
+                <figure class="meal-photo">
+                    <img src="resources/css/img/8.jpg" alt="Granola with cherries and strawberries">
+                </figure>
+                </li>
+            </ul>
+            </section>
 
-    <tr>
-        <td></td>
-        <td></td>
-        <td colspan="2">12</td>
-        <td rowspan="3">22</td>
-        <td></td>
-        <td></td>
-    </tr>
+            <section class="section-steps">
+            <div class="row">
+                <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/css/img/app-iPhone.png" alt="Omnifood app on iPhone" class="app-screen">
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <div class="works-step">
+                    <div>1</div>
+                    <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+                </div>
+                <div class="works-step">
+                    <div>2</div>
+                    <p>Order you delicious meal using our mobile app or website. Or you can evel call us!</p>
+                </div>
+                 <div class="works-step">
+                    <div>3</div>
+                    <p>Enjoy  your meal after less than 20 minutes.See you next time!</p>
+                </div>
 
-    <tr>
-        <td colspan="3">13</td>
-        <td></td>
-        <td></td>
-        <td rowspan="4">24</td>
-    </tr>
+                <a href="#" class="btn-app"><img src="resources/css/img/download-app.svg" alt="App Store Button"></a>
+                <a href="#" class="btn-app"><img src="resources/css/img/download-app-android.png" alt="App Store Button"></a>
+            </div>
+        </div>
+    </section>
 
-    <tr>
-        <td></td>
-        <td rowspan="3">21</td>
-        <td></td>
-        <td></td>
-        <td rowspan="3">23</td>
-    </tr>
-
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-     
-    <tr>
-        <td colspan="5">14</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-     
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td colspan="4">15</td>
-    </tr>
-    
 </body>
 </html>
